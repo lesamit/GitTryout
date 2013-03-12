@@ -19,6 +19,7 @@
 		D599ED6316EF7F0200FAC7CE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D599ED6116EF7F0200FAC7CE /* MainStoryboard_iPhone.storyboard */; };
 		D599ED6616EF7F0200FAC7CE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D599ED6416EF7F0200FAC7CE /* MainStoryboard_iPad.storyboard */; };
 		D599ED6916EF7F0200FAC7CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D599ED6816EF7F0200FAC7CE /* ViewController.m */; };
+		D599ED7616EF80BE00FAC7CE /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D599ED7516EF80BE00FAC7CE /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		D599ED6516EF7F0200FAC7CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		D599ED6716EF7F0200FAC7CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D599ED6816EF7F0200FAC7CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D599ED7416EF80BE00FAC7CE /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController2.h; path = ../ViewController2.h; sourceTree = "<group>"; };
+		D599ED7516EF80BE00FAC7CE /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController2.m; path = ../ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 		D599ED4F16EF7F0200FAC7CE /* GItTryout */ = {
 			isa = PBXGroup;
 			children = (
+				D599ED7416EF80BE00FAC7CE /* ViewController2.h */,
+				D599ED7516EF80BE00FAC7CE /* ViewController2.m */,
 				D599ED5816EF7F0200FAC7CE /* AppDelegate.h */,
 				D599ED5916EF7F0200FAC7CE /* AppDelegate.m */,
 				D599ED6116EF7F0200FAC7CE /* MainStoryboard_iPhone.storyboard */,
@@ -180,6 +185,7 @@
 				D599ED5616EF7F0200FAC7CE /* main.m in Sources */,
 				D599ED5A16EF7F0200FAC7CE /* AppDelegate.m in Sources */,
 				D599ED6916EF7F0200FAC7CE /* ViewController.m in Sources */,
+				D599ED7616EF80BE00FAC7CE /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
